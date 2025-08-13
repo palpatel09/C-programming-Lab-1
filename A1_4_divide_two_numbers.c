@@ -10,9 +10,10 @@ int main() {
         printf("division by 0 is not possible");
     }
     else {
-        float division = n1 / n2;
+        float division =(float)n1 / n2;
         printf("division of inputed numbers is: %f", division);
     }
     return 0;
 
 }
+
