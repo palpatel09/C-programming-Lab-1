@@ -7,7 +7,7 @@ int main() {
     printf("enter second number(non-negative integer):");
     scanf("%d",&n2);
     if ((n1<0)||(n2<0)) {
-        printf("both the entered numbers should be positive integers");
+        printf("both the entered numbers should be non-negative integers");
     }
     else {
         int addition = n1 + n2;
@@ -32,3 +32,4 @@ int main() {
     }
     return 0;
 }
+
