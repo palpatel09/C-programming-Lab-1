@@ -11,7 +11,7 @@ int main() {
     printf("Enter the marks of student in subject-3 out of 100:");
     scanf("%f", &sub3);
 
-    float total = sub1 + sub2 + 3;
+    float total = sub1 + sub2 + sub3;
     float average = total/3;
     printf("Total of three subjects marks = %.2f \n", total);
     printf("Average of three subjects marks = %.2f \n", average);
@@ -37,4 +37,5 @@ int main() {
     }
     return 0;
 }
+
 
